@@ -12,7 +12,7 @@ function App() {
         <button className='freequotebtn' onClick={()=>setshow(!show)}>Get Free Quote</button>
       </div>
       <img className='banner-image' src='/banner-image-desktop.jpg'/>
-      <div className='offer'>Up to 15% OFF on your Home Interiors. Limited Period Offer. <span className='underline'>GET OFFER</span> 〉</div>
+      <div className='offer'>Up to 20% OFF on your Home Interiors. Limited Period Offer. <span className='underline'>GET OFFER</span> 〉</div>
       {show &&<div className='popup'>
         <div className='interior-flex'>
             <div>
